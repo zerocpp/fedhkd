@@ -30,7 +30,7 @@ device = torch.device("cuda:0")
 args = args_parser()
 np.set_printoptions(threshold=np.inf)
 # change available gpu number 
-os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3,4,5,6,7'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0' #'0,1,2,3,4,5,6,7'
 
 
 print(args)
